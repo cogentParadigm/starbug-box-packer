@@ -1,0 +1,26 @@
+{
+  "name": "starbug/box-packer",
+  "type": "starbug-module",
+  "description": "Box packing for products.",
+  "license": "GPL-3.0-or-later",
+  "authors": [
+    {
+      "name": "Ali Gangji",
+      "homepage": "https://github.com/cogentParadigm"
+    }
+  ],
+  "extra": {
+    "namespace": "Starbug\\BoxPacker"
+  },
+  "require": {
+    "dvdoug/boxpacker": "^4.0.1",
+    "starbug/db": "^0.12",
+    "starbug/products": "^0.9",
+    "starbug/shipping-boxes": "^0.9"
+  },
+  "autoload": {
+    "psr-4": {
+      "Starbug\\BoxPacker\\": "src/"
+    }
+  }
+}
